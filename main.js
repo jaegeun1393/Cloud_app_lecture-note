@@ -20,7 +20,9 @@ function asciiART(err, data) {
 
 figlet("Callback", asciiART);
 
-const circum = require('./circle'); //bring another js file to the main js
+//
+const circle = require('./circle'); //bring another js file to the main js
 //require will bring the result
 
 console.log("== circum with radius(5: ", circle.circum(5)); //circle is object and circum is function inside the object
+console.log("== circum with radius(5: ", circle.area(5)); //call area
