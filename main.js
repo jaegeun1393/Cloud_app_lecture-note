@@ -9,3 +9,13 @@ figlet("Hello CS 493!", function (err, data) {
         console.log(data);
     }
 });
+
+//In different way (function)
+
+function asciiART(err, data) {
+    if(!err) {
+        console.log(data);
+    }
+}
+
+figlet("Callback", asciiART);
