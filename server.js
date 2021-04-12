@@ -4,10 +4,11 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 8000;
 
-
+const lodgings = require('./lodingings');
 
 app.get('/lodings', (req, res, next) => {
-    res.status(200).send("These are our lodings.... []\n");
+    res.status(200).send(lodgings);
+    //res.status(200).send("These are our lodings.... []\n");
     //next(); move to the next function
 
 });
