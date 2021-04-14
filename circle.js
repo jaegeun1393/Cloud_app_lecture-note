@@ -10,5 +10,3 @@ module.exports = {
     area: area,
     circum: circum
 };
-
-//end
