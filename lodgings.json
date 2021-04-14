@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Lodging 1",
+        "description": "Description 1",
+        "price": 128.00
+    },
+    {
+        "name": "Lodging 2",
+        "description": "Description 2",
+        "price": 128.00
+    },
+    {
+        "name": "Lodging 3",
+        "description": "Description 3",
+        "price": 128.00
+    },
+    {
+        "name": "Lodging 4",
+        "description": "Description 4",
+        "price": 128.00
+    },
+    {
+        "name": "Lodging 5",
+        "description": "Description 5",
+        "price": 128.00
+    },
+    {
+        "name": "Lodging 6",
+        "description": "Description 6",
+        "price": 128.00
+    },
+    {
+        "name": "Lodging 7",
+        "description": "Description 7",
+        "price": 128.00
+    }
+]
